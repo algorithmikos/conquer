@@ -1,0 +1,11 @@
+.MuiAccordion-root {
+  background-color: transparent;
+}
+
+.Mui-expanded {
+  margin-top: 5px !important;
+}
+
+.Mui-expanded .settings-section {
+  padding-top: 15px !important;
+}

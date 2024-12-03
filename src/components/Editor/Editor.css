@@ -1,0 +1,26 @@
+.MarkDownEditorContent {
+  color: white;
+  background-color: var(--column-bg-color);
+  /* height: 100vh; */
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+  direction: rtl !important;
+  text-align: right;
+  padding-bottom: 100px !important;
+}
+
+.MarkDownToolBar {
+  background-color: var(--column-bg-color);
+}
+
+.mdxeditor-diff-source-wrapper,
+.mdxeditor-source-editor,
+.mdxeditor-root-contenteditable,
+.mdxeditor-select-content,
+.mdxeditor,
+.cm-editor {
+  direction: rtl !important;
+  text-align: right;
+  background-color: var(--column-bg-color) !important;
+  color: white !important;
+}

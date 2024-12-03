@@ -1,0 +1,103 @@
+.svg-bg {
+  transition: all 0.75s ease-in-out;
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
+  -ms-transition: all 0.75s ease-in-out;
+  -o-transition: all 0.75s ease-in-out;
+}
+
+.svg-bg-container:hover .svg-bg {
+  scale: 1.25;
+  left: 40px !important;
+  transform: rotate(-375deg);
+  -webkit-transform: rotate(-375deg);
+  -moz-transform: rotate(-375deg);
+  -ms-transform: rotate(-375deg);
+  -o-transform: rotate(-375deg);
+}
+
+.resizable-div {
+  width: calc(var(--task-card-width) * 2.08);
+  padding: 10px;
+  border: 1px solid var(--column-bg-color);
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* scrollbar-width: thin; */
+}
+
+/* Resizer handles */
+.resizer {
+  position: absolute;
+  z-index: 10;
+}
+
+/* Corner handles */
+.resizer.top-left,
+.resizer.top-right,
+.resizer.bottom-left,
+.resizer.bottom-right {
+  width: 10px;
+  height: 10px;
+}
+
+.resizer.top-left {
+  top: -5px;
+  left: -5px;
+  cursor: nwse-resize;
+}
+
+.resizer.top-right {
+  top: -5px;
+  right: -5px;
+  cursor: nesw-resize;
+}
+
+.resizer.bottom-left {
+  bottom: -5px;
+  left: -5px;
+  cursor: nesw-resize;
+}
+
+.resizer.bottom-right {
+  bottom: -5px;
+  right: -5px;
+  cursor: nwse-resize;
+}
+
+/* Edge handles */
+.resizer.top,
+.resizer.bottom {
+  height: 10px;
+  width: 100%;
+}
+
+.resizer.top {
+  top: -5px;
+  left: 0;
+  cursor: ns-resize;
+}
+
+.resizer.bottom {
+  bottom: -5px;
+  left: 0;
+  cursor: ns-resize;
+}
+
+.resizer.left,
+.resizer.right {
+  width: 10px;
+  height: 100%;
+}
+
+.resizer.left {
+  top: 0;
+  left: -5px;
+  cursor: ew-resize;
+}
+
+.resizer.right {
+  top: 0;
+  right: -5px;
+  cursor: ew-resize;
+}

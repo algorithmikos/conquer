@@ -1,0 +1,15 @@
+.MuiBottomNavigationAction-root {
+  color: grey;
+}
+
+.Mui-selected.MuiBottomNavigationAction-root {
+  color: white !important;
+}
+
+a.MuiBottomNavigationAction-root {
+  color: grey;
+}
+
+a.MuiBottomNavigationAction-root:hover {
+  color: white;
+}

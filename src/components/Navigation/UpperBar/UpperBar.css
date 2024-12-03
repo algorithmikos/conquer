@@ -1,0 +1,30 @@
+.logo-link {
+  font-family: "Roboto Condensed", "Cairo", monospace !important;
+  font-weight: 700 !important;
+  color: white !important;
+  text-decoration: none !important;
+  will-change: filter !important;
+  transition: filter 300ms !important;
+  -webkit-transition: filter 300ms !important;
+  -moz-transition: filter 300ms !important;
+  -ms-transition: filter 300ms !important;
+  -o-transition: filter 300ms !important;
+}
+
+.logo-link:hover {
+  filter: drop-shadow(20px 0 1em #fef67d) !important;
+  -webkit-filter: drop-shadow(20px 0 1em #fef67d) !important;
+}
+
+@media screen and (max-width: 599.95px) {
+  .logo-link {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1279.95px) {
+  .logo-link {
+    display: flex !important;
+    /* flex-grow: 1 !important; */
+  }
+}

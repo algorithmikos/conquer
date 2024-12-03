@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Conquer</string>
+    <string name="title_activity_main">Conquer</string>
+    <string name="package_name">com.matrix.conquer</string>
+    <string name="custom_url_scheme">com.matrix.conquer</string>
+</resources>

@@ -1,0 +1,14 @@
+.read-more-content {
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+
+.read-less-container {
+  -webkit-mask-image: linear-gradient(to top, transparent 0px, black 3rem);
+  mask-image: linear-gradient(to top, transparent 0px, black 3rem);
+  max-height: 80px;
+}
+
+.read-more-container {
+  max-height: none;
+}

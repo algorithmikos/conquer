@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Amethysta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+.contributor-occupation {
+  padding: 2px 5px 2px 10px;
+  border-radius: 3px;
+  color: var(--main-color);
+  background-color: var(--column-bg-color);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.contributor-occupation::before {
+  content: "";
+  padding: 2px 0 2px 0;
+  height: 25px !important;
+  border-left: var(--main-color) solid 3px;
+  margin-right: 7px;
+  margin-left: -10px;
+}
